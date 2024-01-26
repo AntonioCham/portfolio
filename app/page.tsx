@@ -72,7 +72,7 @@ export default function Home(){
             <div className="text-center p-12 h-screen w-screen flex flex-col justify-center items-center">
             <div>
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
-                <video className="mx-auto w-60 h-60 lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200" autoPlay loop muted>
+                <video className="mx-auto w-50 h-50 lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200" autoPlay loop muted>
                         <source src="Antonio.webm" type="video/webm"/>
                 </video>
                 </motion.div>
@@ -91,12 +91,12 @@ export default function Home(){
                 <div className="py-5">
                     { personal.CTASection.description.map((desc, descIndex) => {
                         return(
-                            <p key={descIndex} className="text-md leading-8 text-grey-800">{desc}</p>
+                            <p key={descIndex} className="text-md hidden lg:block leading-8 text-grey-800">{desc}</p>
                         )
                     })}
                 </div>
             </div>
-            <div className="flex justify-center text-4xl gap-16">
+            <div className="flex justify-center text-4xl gap-16 m-4">
                 <motion.a whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="text-3xl lg:text-5xl drop-shadow-md" href="https://www.linkedin.com/in/antoniocham/" target="_blank"><ReactIcons.SiLinkedin /></motion.a>
                 <motion.a whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="text-3xl lg:text-5xl drop-shadow-md" href="https://github.com/antoniocham" target="_blank"><ReactIcons.SiGithub /></motion.a>
                 <motion.a whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="text-3xl lg:text-5xl drop-shadow-md" href="mailto:antoniowlcham2@gmail.com" target="_blank"><ReactIcons.SiGmail /></motion.a>
