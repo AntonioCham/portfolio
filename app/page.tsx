@@ -71,18 +71,18 @@ export default function Home(){
         <section className="min-h-screen">
             <div className="text-center p-12 h-screen w-screen flex flex-col justify-center items-center">
             <div>
-                <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="">
-                <video className="mx-auto w-60 h-60 lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200 hidden lg:block" autoPlay loop muted>
+                <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
+                <video className="mx-auto lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200 hidden lg:block" autoPlay loop muted>
                         <source src="Antonio.webm" type="video/webm"/>
                 </video>
                 </motion.div>
-                <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="relative">
-                <Image src="/assets/antonio.png" alt="antonio" width={200} height={200} className="mx-auto w-60 h-60 lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200 lg:hidden object-contain" />
+                <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
+                <Image src="/assets/antonio.png" alt="antonio" width={500} height={500} className="mx-auto w-60 h-60 rounded-full bg-gradient-to-b from-gray-200 lg:hidden object-contain" />
                 </motion.div>
                 <h2 className="text-4xl lg:text-6xl py-2">
                     { personal.CTASection.name }
                 </h2>
-                <p className="text-2xl lg:text-4xl py-2">
+                <p className="text-xl lg:text-4xl py-2">
                     I&apos;m a {" "}
                     <ReactTyped strings={ personal.CTASection.selfwords}
                     typeSpeed={100}
