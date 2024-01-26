@@ -72,7 +72,7 @@ export default function Home(){
             <div className="text-center p-12 h-screen w-screen flex flex-col justify-center items-center">
             <div>
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
-                <video className="mx-auto w-50 h-50 lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200" autoPlay loop muted>
+                <video className="mx-auto w-60 h-60 lg:w-80 lg:h-80 rounded-full size-1/6 my-4 bg-gradient-to-b from-gray-200" autoPlay loop muted>
                         <source src="Antonio.webm" type="video/webm"/>
                 </video>
                 </motion.div>
