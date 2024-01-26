@@ -1,0 +1,111 @@
+{
+    "CTASection":{
+        "name": "Antonio Cham",
+        "header": "Software Developer",
+        "selfwords":["Software Developer", "Backend Developer", "Programmer"],
+        "description": [
+            "2+ years of expertise in developing innovative business process systems for commercial enterprises and government projects.",
+            "Processed strong analytical, technical and problem-solving skills. Detail-oriented with a quick ability to grasp new concepts."
+        ]
+    },
+    "aboutSection":{
+        "header": "Experience",
+        "content": [
+            {
+                "title": "Solution Associate",
+                "company": "Automated Systems Limited",
+                "date": "07/2021 - 01/2024",
+                "description": [
+                    "Developed and maintained 60+ APIs using JavaScript and C#.", 
+                    "Implemented enterprise-level projects for commercial and government entities serving 8000+ users.",
+                    "Designed comprehensive test cases and implemented testing procedures for 3000+ codebase projects.",
+                    "Collaborated in the full lifecycle development process with 30+ global engineers from client and third-party engineering teams."
+                ],
+                "stack": [
+                    {
+                        "name": "HTML5",
+                        "icon": "SiHtml5"
+                    }, 
+                    {
+                        "name": "CSS",
+                        "icon": "SiCss3"
+                    },
+                    {
+                        "name": "Javascript",
+                        "icon": "SiJavascript"
+                    },
+                    {
+                        "name": "C#",
+                        "icon": "SiCsharp"
+                    },
+                    {
+                        "name": "MSSQL",
+                        "icon": "SiMicrosoftsqlserver"
+                    },
+                    {
+                        "name": "Git",
+                        "icon": "SiGit"
+                    },
+                    {
+                        "name": "Jira",
+                        "icon": "SiJira"
+                    },
+                    {
+                        "name": "AWS",
+                        "icon": "SiAmazonaws"
+                    },
+                    {
+                        "name": "JQuery",
+                        "icon": "SiJquery"
+                    }
+                ]
+            },
+            {
+                "title": "Project Assistant Intern",
+                "company": "Edge Tech Consultancy Company Limited",
+                "date": "07/2019 - 07/2021",
+                "description": [
+                    "Assisted the project manager in managing 5+ IoT dashboard projects in the manufacturing industry.",
+                    "Produced technical documents that served as vital references for project stakeholders.",
+                    "Actively participated in 80+ meetings, facilitating clear communication, gathering and translating user requirements into insights."
+                ],
+                "stack": [
+                    {
+                        "name": "C#",
+                        "icon": "SiCsharp"
+                    },
+                    {
+                        "name": "Javascript",
+                        "icon": "SiJavascript"
+                    },
+                    {
+                        "name": "MySQL",
+                        "icon": "SiMysql"
+                    },
+                    {
+                        "name": "Grafana",
+                        "icon": "SiGrafana"
+                    },
+                    {
+                        "name": "Test",
+                        "icon": "SiTestcafe"
+                    }
+                ]
+            }
+        ]
+    },
+    "projectSection": 
+    {
+        "header": "Project",
+        "content":    
+        [
+            {
+                "projectName": "Personl Portfolio",
+                "picture": "/assets/portfolio_project.png",
+                "githubLink": "https://github.com/AntonioCham/portfolio",
+                "livePreviewLink": "https://antoniocham.dev`"
+            }
+        ]
+    }
+
+}
